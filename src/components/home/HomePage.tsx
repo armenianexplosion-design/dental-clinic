@@ -6,8 +6,8 @@ import { AnimatePresence, motion, useReducedMotion, useScroll, useTransform } fr
 import {
   ArrowDown, ArrowRight, Clock, Menu, Minus, Phone, Plus, X,
 } from "lucide-react";
-import heroEditorial from "@/assets/campaign/hero-editorial.webp";
 import { AlignerScene } from "./AlignerScene";
+import { ToothHeroScene } from "./ToothHeroScene";
 import studioConcept from "@/assets/campaign/studio-concept.webp";
 import { useCinematicScroll } from "@/hooks/use-cinematic-scroll";
 
@@ -116,25 +116,26 @@ function Nav() {
 function Hero() {
   const { t } = useLanguage();
   const ref = useRef<HTMLElement>(null);
-  const desktop = useDesktop();
   const reduceMotion = useReducedMotion();
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
-  const imageScale = useTransform(scrollYProgress, [0, 1], [1.02, 1.14]);
-  const imageX = useTransform(scrollYProgress, [0, 1], [0, 34]);
-  const mediaClip = useTransform(scrollYProgress, [0, 0.84, 1], ["inset(0% 0% 0% 0%)", "inset(7% 5% 7% 50%)", "inset(9% 5% 9% 54%)"]);
-  const copyY = useTransform(scrollYProgress, [0, 1], [0, -72]);
-  const copyOpacity = useTransform(scrollYProgress, [0, 0.48, 0.76], [1, 1, 0]);
+  const copyY = useTransform(scrollYProgress, [0, 1], [0, -96]);
+  const copyOpacity = useTransform(scrollYProgress, [0, 0.4, 0.68], [1, 1, 0]);
+  const titleScale = useTransform(scrollYProgress, [0, 0.6], [1, 1.12]);
   const progressScale = useTransform(scrollYProgress, [0, 1], [0, 1]);
   return <section ref={ref} id="top" className="hero-shell"><div className="hero-sticky">
-    <motion.div className="hero-media" style={reduceMotion ? undefined : desktop ? { scale: imageScale, x: imageX, clipPath: mediaClip } : { scale: imageScale }}>
-      <img src={heroEditorial} alt={t("Conceptual editorial portrait featuring a natural smile")} className="hero-image" width={1588} height={991} fetchPriority="high" />
-    </motion.div>
-    <div className="hero-shade" /><div className="hero-grid" aria-hidden="true" />
+    <div className="hero-ambient" aria-hidden="true" />
+    <ToothHeroScene progress={scrollYProgress} />
+    <div className="hero-vignette" aria-hidden="true" />
     <motion.div className="hero-content" style={reduceMotion ? undefined : { y: copyY, opacity: copyOpacity }}>
-      <div className="hero-kicker hero-kicker-placeholder" aria-hidden="true"><span>{t("New York, NY")}</span><span>{t("Cosmetic & restorative dentistry")}</span></div>
-      <h1 className="hero-title"><span>{t("A natural smile.")}</span><em>{t("Designed around you.")}</em></h1>
-      <div className="hero-lower"><p>{t("Personalized care, clear options, and precise planning—so every decision feels informed and every result still feels like you.")}</p><div className="hero-actions"><span className="hero-cta-placeholder" aria-hidden="true" /><a href="#services" className="text-link hero-explore">{t("Explore treatments")} <ArrowDown /></a></div></div>
-      <div className="hero-trust" aria-label={t("What to expect")}><span>{t("Clear estimates")}</span><span>{t("Coordinated specialists")}</span><span>{t("Unhurried visits")}</span></div>
+      <motion.div className="hero-title-wrap" style={reduceMotion ? undefined : { scale: titleScale }}>
+        <div className="hero-kicker"><span>{t("New York, NY")}</span><span>{t("Cosmetic & restorative dentistry")}</span></div>
+        <h1 className="hero-title"><span>{t("A natural smile.")}</span><em>{t("Designed around you.")}</em></h1>
+      </motion.div>
+      <div className="hero-lower">
+        <p>{t("Personalized care, clear options, and precise planning—so every decision feels informed and every result still feels like you.")}</p>
+        <div className="hero-actions"><a href="#contact" className="hero-cta"><span>{t("Schedule a consultation")}</span><ArrowRight /></a><a href="#services" className="text-link hero-explore">{t("Explore treatments")} <ArrowDown /></a></div>
+        <div className="hero-trust" aria-label={t("What to expect")}><span>{t("Clear estimates")}</span><span>{t("Coordinated specialists")}</span><span>{t("Unhurried visits")}</span></div>
+      </div>
     </motion.div>
     <div className="hero-progress" aria-hidden="true"><span>{t("Scroll")}</span><i><motion.b style={reduceMotion ? undefined : { scaleX: progressScale }} /></i><span>01</span></div>
   </div></section>;
