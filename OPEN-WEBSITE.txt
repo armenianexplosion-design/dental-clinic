@@ -1,0 +1,16 @@
+HOW TO OPEN THE WEBSITE
+
+This is a React website project, not a file that opens by double-clicking index.html.
+
+Windows:
+1. Extract ALL files from this ZIP into a folder.
+2. Install Node.js 22 or newer from https://nodejs.org/ if it is not installed.
+3. Double-click START-WINDOWS.cmd in the extracted folder.
+4. Wait for installation to finish, then open the Local address shown in the window.
+5. Keep the window open while viewing the website.
+
+Other systems / terminal:
+  npm ci
+  npm run dev -- --host 127.0.0.1
+
+The website is not published online. Publishing is a separate step.

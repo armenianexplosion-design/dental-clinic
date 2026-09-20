@@ -1,0 +1,10 @@
+@font-face { font-family: 'Noto Sans Armenian'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/noto-sans-armenian-armenian-400-normal.woff2') format('woff2'); unicode-range: U+0530-058F, U+FB13-FB17; }
+@font-face { font-family: 'Noto Serif Armenian'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/noto-serif-armenian-armenian-400-normal.woff2') format('woff2'); unicode-range: U+0530-058F, U+FB13-FB17; }
+html[lang='hy'] body { font-family: 'Noto Sans Armenian', Arial, sans-serif; }
+html[lang='hy'] h1, html[lang='hy'] h2 { font-family: 'Noto Serif Armenian', Georgia, serif; letter-spacing: -.02em; line-height: 1.15; overflow-wrap: break-word; }
+html[lang='hy'] h1 { font-size: clamp(36px, 6vw, 68px); }
+html[lang='hy'] .back { letter-spacing: .01em; }
+.legal-languages { display: flex; gap: 6px; align-items: center; margin-bottom: 20px; }
+.legal-languages button { padding: 8px; min-height: 44px; border: 0; background: none; color: inherit; font: 12px 'Noto Sans Armenian', Arial, sans-serif; opacity: .6; cursor: pointer; }
+.legal-languages button[aria-pressed='true'] { opacity: 1; text-decoration: underline; text-underline-offset: 5px; }
+.legal-languages span { opacity: .3; font-size: 10px; }

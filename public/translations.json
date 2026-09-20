@@ -1,0 +1,1442 @@
+{
+  "Aurevia Dental Studio": {
+    "hy": "Aurevia Dental Studio",
+    "ru": "Aurevia Dental Studio",
+    "en": "Aurevia Dental Studio"
+  },
+  "26 West 23rd Street, Suite 410, New York, NY 10010": {
+    "hy": "26 West 23rd Street, գրասենյակ 410, Նյու Յորք, NY 10010",
+    "ru": "26 West 23rd Street, офис 410, Нью-Йорк, NY 10010",
+    "en": "26 West 23rd Street, Suite 410, New York, NY 10010"
+  },
+  "Mon–Thu 8:00 AM–6:00 PM · Fri 8:00 AM–4:00 PM": {
+    "hy": "Երկ–Հնգ՝ 08:00–18:00 · Ուրբ՝ 08:00–16:00",
+    "ru": "Пн–чт 08:00–18:00 · Пт 08:00–16:00",
+    "en": "Mon–Thu 8:00 AM–6:00 PM · Fri 8:00 AM–4:00 PM"
+  },
+  "Treatments": {
+    "hy": "Բուժումներ",
+    "ru": "Услуги",
+    "en": "Treatments"
+  },
+  "Our approach": {
+    "hy": "Մեր մոտեցումը",
+    "ru": "Наш подход",
+    "en": "Our approach"
+  },
+  "Team": {
+    "hy": "Թիմը",
+    "ru": "Команда",
+    "en": "Team"
+  },
+  "Results": {
+    "hy": "Արդյունքներ",
+    "ru": "Результаты",
+    "en": "Results"
+  },
+  "Pricing": {
+    "hy": "Գներ",
+    "ru": "Цены",
+    "en": "Pricing"
+  },
+  "FAQ": {
+    "hy": "Հարցեր",
+    "ru": "Вопросы",
+    "en": "FAQ"
+  },
+  "Digital Diagnostics": {
+    "hy": "Թվային ախտորոշում",
+    "ru": "Цифровая диагностика",
+    "en": "Digital Diagnostics"
+  },
+  "See the full picture": {
+    "hy": "Ամբողջական պատկեր",
+    "ru": "Полная картина",
+    "en": "See the full picture"
+  },
+  "3D imaging and a thoughtful exam create the foundation for every care plan.": {
+    "hy": "Եռաչափ հետազոտությունն ու մանրակրկիտ զննումը յուրաքանչյուր բուժման ծրագրի հիմքն են։",
+    "ru": "Трёхмерные снимки и внимательный осмотр — основа каждого плана лечения.",
+    "en": "3D imaging and a thoughtful exam create the foundation for every care plan."
+  },
+  "Consultation · 3D imaging": {
+    "hy": "Խորհրդատվություն · 3D հետազոտություն",
+    "ru": "Консультация · 3D-снимки",
+    "en": "Consultation · 3D imaging"
+  },
+  "Dental Implants": {
+    "hy": "Ատամների իմպլանտացիա",
+    "ru": "Имплантация зубов",
+    "en": "Dental Implants"
+  },
+  "Designed for stability": {
+    "hy": "Հուսալիության համար",
+    "ru": "Основа надёжности",
+    "en": "Designed for stability"
+  },
+  "Implant planning that considers function, comfort, and the final restoration from day one.": {
+    "hy": "Իմպլանտացիայի պլանավորում՝ առաջին իսկ օրվանից հաշվի առնելով գործառույթը, հարմարավետությունն ու վերջնական վերականգնումը։",
+    "ru": "Планируем имплантацию с учётом функции, комфорта и будущей реставрации с самого первого дня.",
+    "en": "Implant planning that considers function, comfort, and the final restoration from day one."
+  },
+  "Planning · Placement · Restoration": {
+    "hy": "Պլանավորում · Տեղադրում · Վերականգնում",
+    "ru": "Планирование · Установка · Реставрация",
+    "en": "Planning · Placement · Restoration"
+  },
+  "Porcelain Veneers": {
+    "hy": "Ճենապակյա վինիրներ",
+    "ru": "Керамические виниры",
+    "en": "Porcelain Veneers"
+  },
+  "Refined, never generic": {
+    "hy": "Նուրբ և անհատական",
+    "ru": "Тонкая работа, ваш характер",
+    "en": "Refined, never generic"
+  },
+  "Shape, translucency, and proportion are considered together for a natural-looking result.": {
+    "hy": "Ձևը, թափանցիկությունն ու համամասնությունները դիտարկվում են միասին՝ բնական տեսք ստանալու համար։",
+    "ru": "Форма, прозрачность и пропорции продумываются вместе, чтобы результат выглядел естественно.",
+    "en": "Shape, translucency, and proportion are considered together for a natural-looking result."
+  },
+  "E.max ceramic options": {
+    "hy": "E.max կերամիկայի տարբերակներ",
+    "ru": "Варианты керамики E.max",
+    "en": "E.max ceramic options"
+  },
+  "Clear Aligners": {
+    "hy": "Թափանցիկ էլայներներ",
+    "ru": "Прозрачные элайнеры",
+    "en": "Clear Aligners"
+  },
+  "Movement with intention": {
+    "hy": "Նպատակային շարժում",
+    "ru": "Продуманное движение",
+    "en": "Movement with intention"
+  },
+  "A digitally guided approach to alignment, with progress reviewed throughout treatment.": {
+    "hy": "Ատամների ուղղման թվային պլանավորում՝ բուժման ողջ ընթացքում առաջընթացի վերահսկմամբ։",
+    "ru": "Цифровое планирование выравнивания зубов с контролем прогресса на каждом этапе.",
+    "en": "A digitally guided approach to alignment, with progress reviewed throughout treatment."
+  },
+  "Clear aligners · Braces": {
+    "hy": "Էլայներներ · Բրեկետներ",
+    "ru": "Элайнеры · Брекеты",
+    "en": "Clear aligners · Braces"
+  },
+  "Preventive Care": {
+    "hy": "Կանխարգելիչ խնամք",
+    "ru": "Профилактика",
+    "en": "Preventive Care"
+  },
+  "Protect what feels good": {
+    "hy": "Պահպանեք առողջ ժպիտը",
+    "ru": "Сохранить здоровье улыбки",
+    "en": "Protect what feels good"
+  },
+  "Professional cleaning, enamel polishing, and practical guidance tailored to your routine.": {
+    "hy": "Մասնագիտական մաքրում, էմալի փայլեցում և ձեր առօրյային հարմար խնամքի խորհուրդներ։",
+    "ru": "Профессиональная чистка, полировка эмали и рекомендации по уходу с учётом ваших привычек.",
+    "en": "Professional cleaning, enamel polishing, and practical guidance tailored to your routine."
+  },
+  "Cleaning · Maintenance": {
+    "hy": "Մաքրում · Շարունակական խնամք",
+    "ru": "Чистка · Поддерживающий уход",
+    "en": "Cleaning · Maintenance"
+  },
+  "Family Dentistry": {
+    "hy": "Ընտանեկան ստոմատոլոգիա",
+    "ru": "Семейная стоматология",
+    "en": "Family Dentistry"
+  },
+  "Care at every stage": {
+    "hy": "Խնամք՝ ամեն տարիքում",
+    "ru": "Забота в любом возрасте",
+    "en": "Care at every stage"
+  },
+  "Calm, clear visits for adults and younger patients, without rushing the conversation.": {
+    "hy": "Հանգիստ այցեր մեծահասակների և երեխաների համար՝ բացատրություններով և զրույցի համար բավարար ժամանակով։",
+    "ru": "Спокойные приёмы для взрослых и детей: понятные объяснения и время для разговора без спешки.",
+    "en": "Calm, clear visits for adults and younger patients, without rushing the conversation."
+  },
+  "Adults · Children": {
+    "hy": "Մեծահասակներ · Երեխաներ",
+    "ru": "Взрослые · Дети",
+    "en": "Adults · Children"
+  },
+  "One clear plan, clearly explained": {
+    "hy": "Հստակ ծրագիր և պարզ բացատրություն",
+    "ru": "Понятный план без лишних вопросов",
+    "en": "One clear plan, clearly explained"
+  },
+  "We connect diagnosis, treatment, and restoration into one seamless, understandable path—so every next step is clear and intentional.": {
+    "hy": "Ախտորոշումը, բուժումն ու վերականգնումը միավորում ենք մեկ հասկանալի ծրագրում, որպեսզի յուրաքանչյուր հաջորդ քայլ լինի հստակ և նպատակային։",
+    "ru": "Объединяем диагностику, лечение и восстановление в последовательный план, чтобы каждый следующий шаг был понятным и обоснованным.",
+    "en": "We connect diagnosis, treatment, and restoration into one seamless, understandable path—so every next step is clear and intentional."
+  },
+  "Technology with a human touch": {
+    "hy": "Տեխնոլոգիաներ և մարդկային ջերմություն",
+    "ru": "Технологии и человеческое внимание",
+    "en": "Technology with a human touch"
+  },
+  "Digital tools help us plan with greater precision. But they never replace the time we spend listening, answering your questions, and making sure you feel comfortable.": {
+    "hy": "Թվային գործիքներն օգնում են ավելի ճշգրիտ պլանավորել։ Բայց դրանք չեն փոխարինում ձեզ լսելու, հարցերին պատասխանելու և հարմարավետության մասին հոգալու ժամանակին։",
+    "ru": "Цифровые инструменты повышают точность планирования. Но они не заменяют время, которое мы уделяем вашим вопросам, пожеланиям и комфорту.",
+    "en": "Digital tools help us plan with greater precision. But they never replace the time we spend listening, answering your questions, and making sure you feel comfortable."
+  },
+  "An in-house dental lab": {
+    "hy": "Սեփական ատամնատեխնիկական լաբորատորիա",
+    "ru": "Собственная зуботехническая лаборатория",
+    "en": "An in-house dental lab"
+  },
+  "With ceramic and restorative work completed on-site, our clinical and technical teams stay closely connected throughout the process.": {
+    "hy": "Կերամիկական և վերականգնողական աշխատանքները կատարվում են տեղում, ինչի շնորհիվ բժիշկներն ու տեխնիկները սերտորեն համագործակցում են ողջ ընթացքում։",
+    "ru": "Керамические и реставрационные работы выполняются на месте: врачи и техники тесно сотрудничают на всех этапах.",
+    "en": "With ceramic and restorative work completed on-site, our clinical and technical teams stay closely connected throughout the process."
+  },
+  "A calmer kind of visit": {
+    "hy": "Ավելի հանգիստ այց",
+    "ru": "Приём в спокойном ритме",
+    "en": "A calmer kind of visit"
+  },
+  "Warm materials, uncluttered spaces, and thoughtful communication create a more relaxed experience—without compromising precision.": {
+    "hy": "Ջերմ նյութերը, ազատ տարածքն ու հոգատար շփումը ստեղծում են հանգիստ միջավայր՝ պահպանելով աշխատանքի ճշգրտությունը։",
+    "ru": "Тёплые материалы, свободное пространство и внимательное общение помогают расслабиться, сохраняя точность лечения.",
+    "en": "Warm materials, uncluttered spaces, and thoughtful communication create a more relaxed experience—without compromising precision."
+  },
+  "Scan": {
+    "hy": "Սքանավորում",
+    "ru": "Сканирование",
+    "en": "Scan"
+  },
+  "Understand": {
+    "hy": "Հասկանալ",
+    "ru": "Понять",
+    "en": "Understand"
+  },
+  "A detailed view of your starting point.": {
+    "hy": "Ձեր ատամների ներկա վիճակի մանրամասն պատկեր։",
+    "ru": "Подробная оценка исходного состояния.",
+    "en": "A detailed view of your starting point."
+  },
+  "Plan": {
+    "hy": "Ծրագիր",
+    "ru": "План",
+    "en": "Plan"
+  },
+  "Compose": {
+    "hy": "Պլանավորել",
+    "ru": "Спланировать",
+    "en": "Compose"
+  },
+  "Function, proportion, and priorities aligned.": {
+    "hy": "Գործառույթի, համամասնությունների և առաջնահերթությունների ներդաշնակություն։",
+    "ru": "Согласовать функцию, пропорции и ваши приоритеты.",
+    "en": "Function, proportion, and priorities aligned."
+  },
+  "Craft": {
+    "hy": "Ստեղծում",
+    "ru": "Создание",
+    "en": "Craft"
+  },
+  "Refine": {
+    "hy": "Մշակել",
+    "ru": "Уточнить",
+    "en": "Refine"
+  },
+  "Materials chosen for the individual case.": {
+    "hy": "Յուրաքանչյուր դեպքի համար անհատապես ընտրված նյութեր։",
+    "ru": "Материалы, подобранные для вашего случая.",
+    "en": "Materials chosen for the individual case."
+  },
+  "Review": {
+    "hy": "Ստուգում",
+    "ru": "Проверка",
+    "en": "Review"
+  },
+  "Adjust": {
+    "hy": "Ճշգրտել",
+    "ru": "Скорректировать",
+    "en": "Adjust"
+  },
+  "Thoughtful checks before the final step.": {
+    "hy": "Մանրակրկիտ ստուգումներ՝ վերջնական փուլից առաջ։",
+    "ru": "Внимательная проверка перед завершающим этапом.",
+    "en": "Thoughtful checks before the final step."
+  },
+  "Care": {
+    "hy": "Խնամք",
+    "ru": "Уход",
+    "en": "Care"
+  },
+  "Maintain": {
+    "hy": "Պահպանել",
+    "ru": "Сохранить",
+    "en": "Maintain"
+  },
+  "A practical plan for what comes next.": {
+    "hy": "Հետագա խնամքի գործնական ծրագիր։",
+    "ru": "Практичный план дальнейшего ухода.",
+    "en": "A practical plan for what comes next."
+  },
+  "Dr. Amelia Hart, DDS": {
+    "hy": "Բժ. Ամելիա Հարթ, DDS",
+    "ru": "Д-р Амелия Харт, DDS",
+    "en": "Dr. Amelia Hart, DDS"
+  },
+  "Cosmetic & Restorative Dentistry": {
+    "hy": "Էսթետիկ և վերականգնողական ստոմատոլոգիա",
+    "ru": "Эстетическая и восстановительная стоматология",
+    "en": "Cosmetic & Restorative Dentistry"
+  },
+  "Natural-looking restorative care guided by proportion, comfort, and long-term function.": {
+    "hy": "Բնական տեսքով վերականգնում՝ համամասնությունների, հարմարավետության և երկարաժամկետ գործառույթի հաշվառմամբ։",
+    "ru": "Естественные реставрации с вниманием к пропорциям, комфорту и долговечности.",
+    "en": "Natural-looking restorative care guided by proportion, comfort, and long-term function."
+  },
+  "Dr. Natalie Brooks, DMD": {
+    "hy": "Բժ. Նատալի Բրուքս, DMD",
+    "ru": "Д-р Натали Брукс, DMD",
+    "en": "Dr. Natalie Brooks, DMD"
+  },
+  "Orthodontics & Clear Aligners": {
+    "hy": "Օրթոդոնտիա և թափանցիկ էլայներներ",
+    "ru": "Ортодонтия и прозрачные элайнеры",
+    "en": "Orthodontics & Clear Aligners"
+  },
+  "Thoughtful alignment plans for adults and teens, with clear milestones at every stage.": {
+    "hy": "Ատամների ուղղման մտածված ծրագրեր մեծահասակների և դեռահասների համար՝ յուրաքանչյուր փուլում հստակ նպատակներով։",
+    "ru": "Продуманные планы выравнивания для взрослых и подростков с понятными этапами лечения.",
+    "en": "Thoughtful alignment plans for adults and teens, with clear milestones at every stage."
+  },
+  "Dr. Ethan Cole, DDS, MS": {
+    "hy": "Բժ. Իթան Քոուլ, DDS, MS",
+    "ru": "Д-р Итан Коул, DDS, MS",
+    "en": "Dr. Ethan Cole, DDS, MS"
+  },
+  "Implant & Surgical Dentistry": {
+    "hy": "Իմպլանտացիա և վիրաբուժական ստոմատոլոգիա",
+    "ru": "Имплантация и хирургическая стоматология",
+    "en": "Implant & Surgical Dentistry"
+  },
+  "Digitally planned implant care with close coordination from placement through restoration.": {
+    "hy": "Թվային պլանավորմամբ իմպլանտացիա՝ սերտ համագործակցությամբ տեղադրումից մինչև վերականգնում։",
+    "ru": "Цифровое планирование имплантации и слаженная работа команды от установки до реставрации.",
+    "en": "Digitally planned implant care with close coordination from placement through restoration."
+  },
+  "New patient consultation": {
+    "hy": "Առաջնային խորհրդատվություն",
+    "ru": "Первичная консультация",
+    "en": "New patient consultation"
+  },
+  "45 min": {
+    "hy": "45 րոպե",
+    "ru": "45 мин",
+    "en": "45 min"
+  },
+  "3D dental imaging": {
+    "hy": "Ատամների 3D հետազոտություն",
+    "ru": "3D-диагностика зубов",
+    "en": "3D dental imaging"
+  },
+  "From $225": {
+    "hy": "$225-ից",
+    "ru": "От $225",
+    "en": "From $225"
+  },
+  "20 min": {
+    "hy": "20 րոպե",
+    "ru": "20 мин",
+    "en": "20 min"
+  },
+  "Professional cleaning": {
+    "hy": "Մասնագիտական մաքրում",
+    "ru": "Профессиональная чистка",
+    "en": "Professional cleaning"
+  },
+  "From $175": {
+    "hy": "$175-ից",
+    "ru": "От $175",
+    "en": "From $175"
+  },
+  "60 min": {
+    "hy": "60 րոպե",
+    "ru": "60 мин",
+    "en": "60 min"
+  },
+  "Professional whitening": {
+    "hy": "Մասնագիտական սպիտակեցում",
+    "ru": "Профессиональное отбеливание",
+    "en": "Professional whitening"
+  },
+  "From $595": {
+    "hy": "$595-ից",
+    "ru": "От $595",
+    "en": "From $595"
+  },
+  "75 min": {
+    "hy": "75 րոպե",
+    "ru": "75 мин",
+    "en": "75 min"
+  },
+  "Porcelain veneer": {
+    "hy": "Ճենապակյա վինիր",
+    "ru": "Керамический винир",
+    "en": "Porcelain veneer"
+  },
+  "From $2,350": {
+    "hy": "$2,350-ից",
+    "ru": "От $2,350",
+    "en": "From $2,350"
+  },
+  "2+ visits": {
+    "hy": "2 և ավելի այց",
+    "ru": "От 2 визитов",
+    "en": "2+ visits"
+  },
+  "Dental implant": {
+    "hy": "Ատամի իմպլանտ",
+    "ru": "Зубной имплант",
+    "en": "Dental implant"
+  },
+  "From $4,500": {
+    "hy": "$4,500-ից",
+    "ru": "От $4,500",
+    "en": "From $4,500"
+  },
+  "Case dependent": {
+    "hy": "Ըստ անհատական դեպքի",
+    "ru": "Индивидуально",
+    "en": "Case dependent"
+  },
+  "Braces": {
+    "hy": "Բրեկետներ",
+    "ru": "Брекеты",
+    "en": "Braces"
+  },
+  "From $5,800": {
+    "hy": "$5,800-ից",
+    "ru": "От $5,800",
+    "en": "From $5,800"
+  },
+  "12–24 months": {
+    "hy": "12–24 ամիս",
+    "ru": "12–24 месяца",
+    "en": "12–24 months"
+  },
+  "Clear aligners": {
+    "hy": "Թափանցիկ էլայներներ",
+    "ru": "Прозрачные элайнеры",
+    "en": "Clear aligners"
+  },
+  "From $5,200": {
+    "hy": "$5,200-ից",
+    "ru": "От $5,200",
+    "en": "From $5,200"
+  },
+  "6–18 months": {
+    "hy": "6–18 ամիս",
+    "ru": "6–18 месяцев",
+    "en": "6–18 months"
+  },
+  "Olivia M.": {
+    "hy": "Օլիվիա Մ.",
+    "ru": "Оливия М.",
+    "en": "Olivia M."
+  },
+  "Smile consultation": {
+    "hy": "Ժպիտի խորհրդատվություն",
+    "ru": "Консультация по эстетике улыбки",
+    "en": "Smile consultation"
+  },
+  "Every option was explained in plain language. I left with a plan that felt considered, realistic, and completely mine.": {
+    "hy": "Բոլոր տարբերակները բացատրեցին պարզ լեզվով։ Հեռացա մտածված, իրատեսական և հենց ինձ համար կազմված ծրագրով։",
+    "ru": "Все варианты объяснили простыми словами. Я ушла с продуманным, реалистичным планом, который действительно подходил мне.",
+    "en": "Every option was explained in plain language. I left with a plan that felt considered, realistic, and completely mine."
+  },
+  "Daniel R.": {
+    "hy": "Դանիել Ռ.",
+    "ru": "Даниэль Р.",
+    "en": "Daniel R."
+  },
+  "Restorative care": {
+    "hy": "Վերականգնողական բուժում",
+    "ru": "Восстановительное лечение",
+    "en": "Restorative care"
+  },
+  "The visit never felt rushed. The team paid attention to comfort, detail, and how the final result would work long term.": {
+    "hy": "Այցի ընթացքում շտապողականություն չկար։ Թիմը կարևորում էր հարմարավետությունը, մանրամասներն ու արդյունքի երկարաժամկետ գործառույթը։",
+    "ru": "На приёме никто не торопил. Команда внимательно отнеслась к комфорту, деталям и тому, как результат будет служить со временем.",
+    "en": "The visit never felt rushed. The team paid attention to comfort, detail, and how the final result would work long term."
+  },
+  "Sophia L.": {
+    "hy": "Սոֆիա Լ.",
+    "ru": "София Л.",
+    "en": "Sophia L."
+  },
+  "I always knew what the next milestone was. The process felt organized, discreet, and much easier than I expected.": {
+    "hy": "Միշտ գիտեի՝ որն է հաջորդ նպատակը։ Գործընթացը կազմակերպված էր, աննկատ և սպասվածից շատ ավելի հեշտ։",
+    "ru": "Я всегда знала, какой этап будет следующим. Всё было организованно, незаметно для окружающих и намного проще, чем я ожидала.",
+    "en": "I always knew what the next milestone was. The process felt organized, discreet, and much easier than I expected."
+  },
+  "Marcus T.": {
+    "hy": "Մարկուս Թ.",
+    "ru": "Маркус Т.",
+    "en": "Marcus T."
+  },
+  "Implant care": {
+    "hy": "Իմպլանտացիոն բուժում",
+    "ru": "Лечение с имплантацией",
+    "en": "Implant care"
+  },
+  "From the scan to the final restoration, the specialists communicated clearly and made a complex treatment feel manageable.": {
+    "hy": "Սքանավորումից մինչև վերջնական վերականգնում մասնագետներն ամեն ինչ հստակ բացատրում էին, և բարդ բուժումը դարձավ հասկանալի ու կառավարելի։",
+    "ru": "От сканирования до финальной реставрации специалисты всё ясно объясняли, и сложное лечение казалось вполне понятным.",
+    "en": "From the scan to the final restoration, the specialists communicated clearly and made a complex treatment feel manageable."
+  },
+  "What happens at a first visit?": {
+    "hy": "Ինչպե՞ս է անցնում առաջին այցը։",
+    "ru": "Как проходит первый приём?",
+    "en": "What happens at a first visit?"
+  },
+  "We begin with a conversation about your goals and concerns, then complete an exam and any recommended imaging. You receive a clear care plan before deciding how to proceed.": {
+    "hy": "Սկզբում զրուցում ենք ձեր նպատակների և մտահոգությունների մասին, ապա կատարում զննում ու անհրաժեշտ հետազոտություններ։ Մինչև որոշում կայացնելը ստանում եք բուժման հստակ ծրագիր։",
+    "ru": "Сначала обсуждаем ваши цели и пожелания, затем проводим осмотр и рекомендованные исследования. Прежде чем принять решение, вы получаете понятный план лечения.",
+    "en": "We begin with a conversation about your goals and concerns, then complete an exam and any recommended imaging. You receive a clear care plan before deciding how to proceed."
+  },
+  "How long will treatment take?": {
+    "hy": "Որքա՞ն կտևի բուժումը։",
+    "ru": "Сколько длится лечение?",
+    "en": "How long will treatment take?"
+  },
+  "Timing depends on the treatment and your individual needs. A consultation may take about 30 minutes; orthodontic and implant care typically involves multiple visits over a longer period.": {
+    "hy": "Տևողությունը կախված է բուժումից և ձեր անհատական կարիքներից։ Խորհրդատվությունը կարող է տևել մոտ 30 րոպե, իսկ օրթոդոնտիկ բուժումն ու իմպլանտացիան սովորաբար պահանջում են մի քանի այց՝ ավելի երկար ժամանակահատվածում։",
+    "ru": "Сроки зависят от вида лечения и вашей ситуации. Консультация может занять около 30 минут, а ортодонтия и имплантация обычно требуют нескольких визитов в течение более длительного периода.",
+    "en": "Timing depends on the treatment and your individual needs. A consultation may take about 30 minutes; orthodontic and implant care typically involves multiple visits over a longer period."
+  },
+  "Do you offer payment plans or accept insurance?": {
+    "hy": "Կա՞ մաս-մաս վճարման կամ ապահովագրության հնարավորություն։",
+    "ru": "Есть ли рассрочка и работа со страховкой?",
+    "en": "Do you offer payment plans or accept insurance?"
+  },
+  "Flexible monthly payment options are available for qualifying treatment plans. We can also review out-of-network PPO benefits and provide an itemized estimate before care begins.": {
+    "hy": "Համապատասխան բուժման ծրագրերի համար հասանելի է ամսական վճարման ճկուն տարբերակ։ Կարող ենք նաև ուսումնասիրել PPO ապահովագրության՝ ցանցից դուրս փոխհատուցման պայմաններն ու նախապես տրամադրել մանրամասն նախահաշիվ։",
+    "ru": "Для подходящих планов лечения доступны гибкие ежемесячные платежи. Также можем проверить покрытие PPO вне сети и подготовить подробную смету до начала лечения.",
+    "en": "Flexible monthly payment options are available for qualifying treatment plans. We can also review out-of-network PPO benefits and provide an itemized estimate before care begins."
+  },
+  "What if I feel anxious about dental care?": {
+    "hy": "Ի՞նչ անել, եթե անհանգստանում եմ բուժումից։",
+    "ru": "Что делать, если я боюсь лечения?",
+    "en": "What if I feel anxious about dental care?"
+  },
+  "Tell the team before your visit. They can explain what to expect, move at a comfortable pace, and discuss appropriate comfort options for the care you need.": {
+    "hy": "Այդ մասին ասեք թիմին այցից առաջ։ Նրանք կբացատրեն՝ ինչ սպասել, կաշխատեն ձեզ հարմար տեմպով և կքննարկեն բուժումն ավելի հարմարավետ դարձնելու տարբերակները։",
+    "ru": "Расскажите об этом команде заранее. Вам объяснят, чего ожидать, подберут комфортный темп и обсудят способы сделать лечение спокойнее.",
+    "en": "Tell the team before your visit. They can explain what to expect, move at a comfortable pace, and discuss appropriate comfort options for the care you need."
+  },
+  "How is pricing determined?": {
+    "hy": "Ինչպե՞ս է որոշվում արժեքը։",
+    "ru": "Как определяется стоимость?",
+    "en": "How is pricing determined?"
+  },
+  "Final fees depend on the diagnosis, materials, and complexity of care. You should receive an itemized estimate before treatment begins.": {
+    "hy": "Վերջնական արժեքը կախված է ախտորոշումից, նյութերից և բուժման բարդությունից։ Մինչև բուժման սկիզբը պետք է ստանաք մանրամասն նախահաշիվ։",
+    "ru": "Итоговая стоимость зависит от диагноза, материалов и сложности лечения. Подробную смету следует получить до начала процедур.",
+    "en": "Final fees depend on the diagnosis, materials, and complexity of care. You should receive an itemized estimate before treatment begins."
+  },
+  "Shade refinement": {
+    "hy": "Երանգի բարելավում",
+    "ru": "Коррекция оттенка",
+    "en": "Shade refinement"
+  },
+  "Alignment preview": {
+    "hy": "Ուղղման նախադիտում",
+    "ru": "Визуализация выравнивания",
+    "en": "Alignment preview"
+  },
+  "Ceramic veneers": {
+    "hy": "Կերամիկական վինիրներ",
+    "ru": "Керамические виниры",
+    "en": "Ceramic veneers"
+  },
+  "Shape & proportion": {
+    "hy": "Ձև և համամասնություններ",
+    "ru": "Форма и пропорции",
+    "en": "Shape & proportion"
+  },
+  "Composite bonding": {
+    "hy": "Կոմպոզիտային վերականգնում",
+    "ru": "Композитная реставрация",
+    "en": "Composite bonding"
+  },
+  "Edge restoration": {
+    "hy": "Եզրերի վերականգնում",
+    "ru": "Восстановление края",
+    "en": "Edge restoration"
+  },
+  "Aurevia": {
+    "hy": "Aurevia",
+    "ru": "Aurevia",
+    "en": "Aurevia"
+  },
+  "Dental Studio": {
+    "hy": "Ատամնաբուժական ստուդիա",
+    "ru": "Стоматологическая студия",
+    "en": "Dental Studio"
+  },
+  "Demo website · Fictional clinic & content": {
+    "hy": "Դեմո կայք · Հորինված կլինիկա",
+    "ru": "Демосайт · Вымышленная клиника",
+    "en": "Demo website · Fictional clinic & content"
+  },
+  "Let’s Talk": {
+    "hy": "Կապ մեզ հետ",
+    "ru": "Связаться",
+    "en": "Let’s Talk"
+  },
+  "Schedule a consultation": {
+    "hy": "Խորհրդատվության գրանցում",
+    "ru": "Записаться на консультацию",
+    "en": "Schedule a consultation"
+  },
+  "New York, NY": {
+    "hy": "Նյու Յորք, NY",
+    "ru": "Нью-Йорк, NY",
+    "en": "New York, NY"
+  },
+  "Cosmetic & restorative dentistry": {
+    "hy": "Էսթետիկ և վերականգնողական ստոմատոլոգիա",
+    "ru": "Эстетическая и восстановительная стоматология",
+    "en": "Cosmetic & restorative dentistry"
+  },
+  "A natural smile.": {
+    "hy": "Բնական ժպիտ։",
+    "ru": "Естественная улыбка.",
+    "en": "A natural smile."
+  },
+  "Designed around you.": {
+    "hy": "Հենց ձեզ համար։",
+    "ru": "Создана для вас.",
+    "en": "Designed around you."
+  },
+  "Personalized care, clear options, and precise planning—so every decision feels informed and every result still feels like you.": {
+    "hy": "Անհատական մոտեցում, հստակ ծրագիր և նուրբ աշխատանք՝ ձեր բնական ժպիտի համար։",
+    "ru": "Индивидуальный подход и точный план лечения, чтобы сохранить естественность вашей улыбки.",
+    "en": "Personalized care, clear options, and precise planning—so every decision feels informed and every result still feels like you."
+  },
+  "Explore treatments": {
+    "hy": "Բուժման տարբերակներ",
+    "ru": "Посмотреть услуги",
+    "en": "Explore treatments"
+  },
+  "Clear estimates": {
+    "hy": "Հստակ նախահաշիվ",
+    "ru": "Понятная смета",
+    "en": "Clear estimates"
+  },
+  "Coordinated specialists": {
+    "hy": "Համագործակցող մասնագետներ",
+    "ru": "Слаженная команда",
+    "en": "Coordinated specialists"
+  },
+  "Unhurried visits": {
+    "hy": "Այցեր՝ առանց շտապելու",
+    "ru": "Приём без спешки",
+    "en": "Unhurried visits"
+  },
+  "Scroll": {
+    "hy": "Ոլորել",
+    "ru": "Листайте",
+    "en": "Scroll"
+  },
+  "Three ideas.": {
+    "hy": "Երեք գաղափար։",
+    "ru": "Три идеи.",
+    "en": "Three ideas."
+  },
+  "One connected standard of care.": {
+    "hy": "Խնամքի մեկ միասնական չափանիշ։",
+    "ru": "Единый стандарт заботы.",
+    "en": "One connected standard of care."
+  },
+  "01 · Treatments": {
+    "hy": "01 · Բուժումներ",
+    "ru": "01 · Услуги",
+    "en": "01 · Treatments"
+  },
+  "Care, composed": {
+    "hy": "Խնամք՝",
+    "ru": "Забота",
+    "en": "Care, composed"
+  },
+  "for real life.": {
+    "hy": "ձեզ համար։",
+    "ru": "в вашем ритме.",
+    "en": "for real life."
+  },
+  "Every treatment begins with a clear view of the whole—not a one-size-fits-all solution.": {
+    "hy": "Յուրաքանչյուր բուժում սկսվում է ամբողջական պատկերի ուսումնասիրությունից՝ անհատական լուծում գտնելու համար։",
+    "ru": "Каждое лечение начинается с оценки общей картины и поиска индивидуального решения.",
+    "en": "Every treatment begins with a clear view of the whole—not a one-size-fits-all solution."
+  },
+  "02 · Our approach": {
+    "hy": "02 · Մեր մոտեցումը",
+    "ru": "02 · Наш подход",
+    "en": "02 · Our approach"
+  },
+  "High-tech care.": {
+    "hy": "Ճշգրիտ բուժում։",
+    "ru": "Точность в лечении.",
+    "en": "High-tech care."
+  },
+  "Low-pressure experience.": {
+    "hy": "Հանգիստ այց։",
+    "ru": "Спокойствие в деталях.",
+    "en": "Low-pressure experience."
+  },
+  "03 · The process": {
+    "hy": "03 · Գործընթացը",
+    "ru": "03 · Процесс",
+    "en": "03 · The process"
+  },
+  "The architecture": {
+    "hy": "Ժպիտի",
+    "ru": "Архитектура",
+    "en": "The architecture"
+  },
+  "of a smile.": {
+    "hy": "արվեստը։",
+    "ru": "улыбки.",
+    "en": "of a smile."
+  },
+  "Conceptual imagery—not before-and-after evidence.": {
+    "hy": "Հայեցակարգային պատկերներ․ բուժման արդյունքի ապացույց չեն։",
+    "ru": "Концептуальные изображения, не подтверждение результатов лечения.",
+    "en": "Conceptual imagery—not before-and-after evidence."
+  },
+  "04 · Clinical team": {
+    "hy": "04 · Բժշկական թիմը",
+    "ru": "04 · Команда врачей",
+    "en": "04 · Clinical team"
+  },
+  "Clinical expertise,": {
+    "hy": "Փորձ և",
+    "ru": "Опыт врачей.",
+    "en": "Clinical expertise,"
+  },
+  "thoughtfully delivered.": {
+    "hy": "հոգատարություն։",
+    "ru": "Внимание к вам.",
+    "en": "thoughtfully delivered."
+  },
+  "Before": {
+    "hy": "Մինչև",
+    "ru": "До",
+    "en": "Before"
+  },
+  "After": {
+    "hy": "Հետո",
+    "ru": "После",
+    "en": "After"
+  },
+  "Interactive demo": {
+    "hy": "Ինտերակտիվ դեմո",
+    "ru": "Интерактивное демо",
+    "en": "Interactive demo"
+  },
+  "05 · Results": {
+    "hy": "05 · Արդյունքներ",
+    "ru": "05 · Результаты",
+    "en": "05 · Results"
+  },
+  "Before / after.": {
+    "hy": "Մինչև և հետո։",
+    "ru": "До и после.",
+    "en": "Before / after."
+  },
+  "See the difference.": {
+    "hy": "Զգացեք փոփոխությունը։",
+    "ru": "Заметная разница.",
+    "en": "See the difference."
+  },
+  "06 · Pricing": {
+    "hy": "06 · Գներ",
+    "ru": "06 · Цены",
+    "en": "06 · Pricing"
+  },
+  "Clear costs.": {
+    "hy": "Հստակ գներ։",
+    "ru": "Понятные цены.",
+    "en": "Clear costs."
+  },
+  "Considered care.": {
+    "hy": "Մտածված խնամք։",
+    "ru": "Продуманный подход.",
+    "en": "Considered care."
+  },
+  "Explore your options.": {
+    "hy": "Ծանոթացեք տարբերակներին։",
+    "ru": "Изучите варианты.",
+    "en": "Explore your options."
+  },
+  "Plan your next step.": {
+    "hy": "Պլանավորեք հաջորդ քայլը։",
+    "ru": "Наметьте следующий шаг.",
+    "en": "Plan your next step."
+  },
+  "Discuss your options": {
+    "hy": "Քննարկել տարբերակները",
+    "ru": "Обсудить варианты",
+    "en": "Discuss your options"
+  },
+  "Illustrative demo fees in USD. Your final estimate depends on your individual care plan.": {
+    "hy": "Դեմո գները ներկայացված են ԱՄՆ դոլարով։ Վերջնական նախահաշիվը կախված է ձեր անհատական բուժման ծրագրից։",
+    "ru": "Примерные цены для демо в долларах США. Итоговая смета зависит от вашего плана лечения.",
+    "en": "Illustrative demo fees in USD. Your final estimate depends on your individual care plan."
+  },
+  "From": {
+    "hy": "Սկսած",
+    "ru": "От",
+    "en": "From"
+  },
+  "07 · Patient perspective": {
+    "hy": "07 · Պացիենտների կարծիքներ",
+    "ru": "07 · Мнение пациентов",
+    "en": "07 · Patient perspective"
+  },
+  "What care": {
+    "hy": "Խնամք, որ",
+    "ru": "Забота, которую",
+    "en": "What care"
+  },
+  "should feel like.": {
+    "hy": "զգացվում է։",
+    "ru": "вы чувствуете.",
+    "en": "should feel like."
+  },
+  "08 · Before your visit": {
+    "hy": "08 · Այցից առաջ",
+    "ru": "08 · Перед визитом",
+    "en": "08 · Before your visit"
+  },
+  "Questions,": {
+    "hy": "Ձեր հարցերը։",
+    "ru": "Ваши вопросы.",
+    "en": "Questions,"
+  },
+  "answered clearly.": {
+    "hy": "Պարզ պատասխաններ։",
+    "ru": "Ясные ответы.",
+    "en": "answered clearly."
+  },
+  "Still deciding? Call the office and talk through what you need before scheduling.": {
+    "hy": "Դեռ մտածո՞ւմ եք։ Զանգահարեք և քննարկեք ձեր կարիքները՝ նախքան այց ամրագրելը։",
+    "ru": "Ещё выбираете? Позвоните и обсудите свои пожелания до записи на приём.",
+    "en": "Still deciding? Call the office and talk through what you need before scheduling."
+  },
+  "A more considered dental experience": {
+    "hy": "Ատամնաբուժություն՝ մտածված մոտեցմամբ",
+    "ru": "Продуманный подход к стоматологии",
+    "en": "A more considered dental experience"
+  },
+  "A smile you’ll": {
+    "hy": "Ժպտացեք",
+    "ru": "Улыбайтесь",
+    "en": "A smile you’ll"
+  },
+  "want to show.": {
+    "hy": "վստահությամբ։",
+    "ru": "с уверенностью.",
+    "en": "want to show."
+  },
+  "Start with a conversation. We’ll help you understand the options without rushing the decision.": {
+    "hy": "Սկսեք զրույցից։ Կօգնենք հասկանալ տարբերակները՝ առանց որոշումը շտապեցնելու։",
+    "ru": "Начните с разговора. Поможем разобраться в вариантах, не торопя с решением.",
+    "en": "Start with a conversation. We’ll help you understand the options without rushing the decision."
+  },
+  "Start a Conversation": {
+    "hy": "Սկսել զրույցը",
+    "ru": "Начать разговор",
+    "en": "Start a Conversation"
+  },
+  "Call the Office": {
+    "hy": "Զանգահարել",
+    "ru": "Позвонить",
+    "en": "Call the Office"
+  },
+  "09 · Contact": {
+    "hy": "09 · Կապ",
+    "ru": "09 · Контакты",
+    "en": "09 · Contact"
+  },
+  "Let’s plan": {
+    "hy": "Սկսենք",
+    "ru": "Начнём",
+    "en": "Let’s plan"
+  },
+  "your next step.": {
+    "hy": "զրույցից։",
+    "ru": "с разговора.",
+    "en": "your next step."
+  },
+  "A treatment in mind? Choose what interests you and when you’d like to begin.": {
+    "hy": "Հետաքրքրո՞ւմ է որևէ բուժում։ Ընտրեք ծառայությունն ու ձեզ հարմար ժամկետը։",
+    "ru": "Уже выбрали лечение? Укажите, что вас интересует и когда вы хотели бы начать.",
+    "en": "A treatment in mind? Choose what interests you and when you’d like to begin."
+  },
+  "Demo contact": {
+    "hy": "Դեմո կոնտակտ",
+    "ru": "Демонстрационный контакт",
+    "en": "Demo contact"
+  },
+  "At your pace": {
+    "hy": "Ձեզ հարմար տեմպով",
+    "ru": "В вашем ритме",
+    "en": "At your pace"
+  },
+  "Choose a time frame that works for you.": {
+    "hy": "Ընտրեք ձեզ հարմար ժամկետը։",
+    "ru": "Выберите удобный для вас срок.",
+    "en": "Choose a time frame that works for you."
+  },
+  "Let’s talk.": {
+    "hy": "Եկեք զրուցենք։",
+    "ru": "Давайте обсудим.",
+    "en": "Let’s talk."
+  },
+  "Two details to get started": {
+    "hy": "Երկու մանրամասն՝ սկսելու համար",
+    "ru": "Две детали для начала",
+    "en": "Two details to get started"
+  },
+  "Treatment interest": {
+    "hy": "Հետաքրքրող բուժումը",
+    "ru": "Что вас интересует",
+    "en": "Treatment interest"
+  },
+  "General consultation": {
+    "hy": "Ընդհանուր խորհրդատվություն",
+    "ru": "Общая консультация",
+    "en": "General consultation"
+  },
+  "Preferred timing": {
+    "hy": "Նախընտրելի ժամկետը",
+    "ru": "Когда вам удобно",
+    "en": "Preferred timing"
+  },
+  "First available": {
+    "hy": "Առաջին հնարավոր ժամկետում",
+    "ru": "Как можно скорее",
+    "en": "First available"
+  },
+  "Within the next two weeks": {
+    "hy": "Առաջիկա երկու շաբաթում",
+    "ru": "В ближайшие две недели",
+    "en": "Within the next two weeks"
+  },
+  "This month": {
+    "hy": "Այս ամիս",
+    "ru": "В этом месяце",
+    "en": "This month"
+  },
+  "I’m flexible": {
+    "hy": "Ժամկետը ճկուն է",
+    "ru": "Готовы обсудить сроки",
+    "en": "I’m flexible"
+  },
+  "Send message": {
+    "hy": "Գրել մեզ",
+    "ru": "Написать нам",
+    "en": "Send message"
+  },
+  "Choose SMS or WhatsApp in the next step. Review and send your message in the app.": {
+    "hy": "Հաջորդ քայլում ընտրեք SMS կամ WhatsApp։ Ստուգեք և ուղարկեք հաղորդագրությունն ընտրված հավելվածում։",
+    "ru": "На следующем шаге выберите SMS или WhatsApp. Проверьте и отправьте сообщение в приложении.",
+    "en": "Choose SMS or WhatsApp in the next step. Review and send your message in the app."
+  },
+  "Demo contact, not a dental practice. No appointment is booked.": {
+    "hy": "Սա դեմո կոնտակտ է, ոչ թե գործող կլինիկա։ Այց չի ամրագրվում։",
+    "ru": "Это демо-контакт, а не стоматологическая клиника. Запись на приём не оформляется.",
+    "en": "Demo contact, not a dental practice. No appointment is booked."
+  },
+  "Privacy": {
+    "hy": "Գաղտնիություն",
+    "ru": "Конфиденциальность",
+    "en": "Privacy"
+  },
+  "Terms": {
+    "hy": "Պայմաններ",
+    "ru": "Условия",
+    "en": "Terms"
+  },
+  "Your message is ready": {
+    "hy": "Ձեր հաղորդագրությունը պատրաստ է",
+    "ru": "Ваше сообщение готово",
+    "en": "Your message is ready"
+  },
+  "Where shall we": {
+    "hy": "Ինչպե՞ս",
+    "ru": "Как вам",
+    "en": "Where shall we"
+  },
+  "continue?": {
+    "hy": "կապվենք։",
+    "ru": "удобнее?",
+    "en": "continue?"
+  },
+  "SMS / Text": {
+    "hy": "SMS / Տեքստ",
+    "ru": "SMS-сообщение",
+    "en": "SMS / Text"
+  },
+  "Open your messaging app": {
+    "hy": "Բացել հավելվածը",
+    "ru": "Открыть сообщения",
+    "en": "Open your messaging app"
+  },
+  "WhatsApp": {
+    "hy": "WhatsApp",
+    "ru": "WhatsApp",
+    "en": "WhatsApp"
+  },
+  "Continue in WhatsApp": {
+    "hy": "Շարունակել WhatsApp-ում",
+    "ru": "Продолжить в WhatsApp",
+    "en": "Continue in WhatsApp"
+  },
+  "View prepared message": {
+    "hy": "Դիտել պատրաստված հաղորդագրությունը",
+    "ru": "Посмотреть текст сообщения",
+    "en": "View prepared message"
+  },
+  "App didn’t open? Copy message": {
+    "hy": "Հավելվածը չի՞ բացվել։ Պատճենել տեքստը",
+    "ru": "Приложение не открылось? Скопировать текст",
+    "en": "App didn’t open? Copy message"
+  },
+  "Nothing is sent automatically. Please don’t include sensitive medical information. SMS charges may apply.": {
+    "hy": "Ոչինչ ինքնաբերաբար չի ուղարկվում։ Խնդրում ենք չներառել զգայուն բժշկական տվյալներ։ SMS-ի համար կարող է վճար գանձվել։",
+    "ru": "Ничего не отправляется автоматически. Не указывайте конфиденциальные медицинские данные. SMS может оплачиваться по тарифу оператора.",
+    "en": "Nothing is sent automatically. Please don’t include sensitive medical information. SMS charges may apply."
+  },
+  "Modern dentistry, designed around the person.": {
+    "hy": "Ժամանակակից ստոմատոլոգիա՝ մարդու շուրջ կառուցված։",
+    "ru": "Современная стоматология с вниманием к человеку.",
+    "en": "Modern dentistry, designed around the person."
+  },
+  "Back to top": {
+    "hy": "Դեպի սկիզբ",
+    "ru": "Наверх",
+    "en": "Back to top"
+  },
+  "Explore": {
+    "hy": "Բացահայտեք",
+    "ru": "Навигация",
+    "en": "Explore"
+  },
+  "Contact": {
+    "hy": "Կապ",
+    "ru": "Контакты",
+    "en": "Contact"
+  },
+  "Office hours": {
+    "hy": "Աշխատանքային ժամեր",
+    "ru": "Часы работы",
+    "en": "Office hours"
+  },
+  "U.S. demo content · Verify all business details before publication": {
+    "hy": "ԱՄՆ շուկայի դեմո · Հրապարակելուց առաջ ստուգեք բոլոր տվյալները",
+    "ru": "Демо для США · Проверьте данные перед публикацией",
+    "en": "U.S. demo content · Verify all business details before publication"
+  },
+  "Call": {
+    "hy": "Զանգել",
+    "ru": "Звонок",
+    "en": "Call"
+  },
+  "Message": {
+    "hy": "Գրել",
+    "ru": "Написать",
+    "en": "Message"
+  },
+  "Primary navigation": {
+    "hy": "Հիմնական նավարկում",
+    "ru": "Основная навигация",
+    "en": "Primary navigation"
+  },
+  "Mobile navigation": {
+    "hy": "Բջջային նավարկում",
+    "ru": "Мобильная навигация",
+    "en": "Mobile navigation"
+  },
+  "Conceptual editorial portrait featuring a natural smile": {
+    "hy": "Բնական ժպիտով հայեցակարգային դիմանկար",
+    "ru": "Концептуальный портрет с естественной улыбкой",
+    "en": "Conceptual editorial portrait featuring a natural smile"
+  },
+  "What to expect": {
+    "hy": "Ինչ սպասել",
+    "ru": "Чего ожидать",
+    "en": "What to expect"
+  },
+  "Refined dental consultation studio": {
+    "hy": "Նրբաճաշակ ատամնաբուժական խորհրդատվության սրահ",
+    "ru": "Элегантный кабинет стоматологической консультации",
+    "en": "Refined dental consultation studio"
+  },
+  "Care process": {
+    "hy": "Բուժման ընթացքը",
+    "ru": "Этапы лечения",
+    "en": "Care process"
+  },
+  "Treatment pricing categories": {
+    "hy": "Բուժման գների բաժիններ",
+    "ru": "Категории стоимости лечения",
+    "en": "Treatment pricing categories"
+  },
+  "Close messaging options": {
+    "hy": "Փակել հաղորդագրության տարբերակները",
+    "ru": "Закрыть варианты отправки",
+    "en": "Close messaging options"
+  },
+  "Copied — paste it into your messaging app if needed.": {
+    "hy": "Պատճենված է․ անհրաժեշտության դեպքում տեղադրեք հաղորդագրությունների հավելվածում։",
+    "ru": "Скопировано — при необходимости вставьте текст в приложение сообщений.",
+    "en": "Copied — paste it into your messaging app if needed."
+  },
+  "Select the message below and copy it manually.": {
+    "hy": "Ընտրեք ստորև բերված հաղորդագրությունն ու պատճենեք ձեռքով։",
+    "ru": "Выделите сообщение ниже и скопируйте вручную.",
+    "en": "Select the message below and copy it manually."
+  },
+  "Close menu": {
+    "hy": "Փակել ընտրացանկը",
+    "ru": "Закрыть меню",
+    "en": "Close menu"
+  },
+  "Open menu": {
+    "hy": "Բացել ընտրացանկը",
+    "ru": "Открыть меню",
+    "en": "Open menu"
+  },
+  "Precision.": {
+    "hy": "Ճշգրտություն։",
+    "ru": "Точность.",
+    "en": "Precision."
+  },
+  "Technology.": {
+    "hy": "Տեխնոլոգիա։",
+    "ru": "Технологии.",
+    "en": "Technology."
+  },
+  "Aesthetics.": {
+    "hy": "Էսթետիկա։",
+    "ru": "Эстетика.",
+    "en": "Aesthetics."
+  },
+  "First visit": {
+    "hy": "Առաջին այց",
+    "ru": "Первый приём",
+    "en": "First visit"
+  },
+  "A clear place to begin.": {
+    "hy": "Հստակ մեկնարկ։",
+    "ru": "Понятное начало.",
+    "en": "A clear place to begin."
+  },
+  "Everyday care": {
+    "hy": "Ամենօրյա խնամք",
+    "ru": "Регулярный уход",
+    "en": "Everyday care"
+  },
+  "Keep your smile feeling its best.": {
+    "hy": "Պահպանեք ձեր ժպիտի առողջությունը։",
+    "ru": "Чтобы улыбка оставалась здоровой.",
+    "en": "Keep your smile feeling its best."
+  },
+  "Smile transformations": {
+    "hy": "Ժպիտի էսթետիկա",
+    "ru": "Эстетика улыбки",
+    "en": "Smile transformations"
+  },
+  "Thoughtful changes, made for you.": {
+    "hy": "Մտածված փոփոխություններ՝ ձեզ համար։",
+    "ru": "Продуманные перемены для вас.",
+    "en": "Thoughtful changes, made for you."
+  },
+  "Language": {
+    "hy": "Լեզու",
+    "ru": "Язык",
+    "en": "Language"
+  },
+  "Ask about {service}": {
+    "hy": "Հարցնել՝ {service}",
+    "ru": "Узнать об услуге: {service}",
+    "en": "Ask about {service}"
+  },
+  "Request an appointment with {name}": {
+    "hy": "Գրանցվել՝ {name}",
+    "ru": "Записаться: {name}",
+    "en": "Request an appointment with {name}"
+  },
+  "{title} concept before view": {
+    "hy": "{title}․ նախնական տեսքի օրինակ",
+    "ru": "{title}: пример до",
+    "en": "{title} concept before view"
+  },
+  "{title} concept after view": {
+    "hy": "{title}․ վերջնական տեսքի օրինակ",
+    "ru": "{title}: пример после",
+    "en": "{title} concept after view"
+  },
+  "Compare before and after for {title}": {
+    "hy": "Համեմատել {title}՝ մինչև և հետո",
+    "ru": "Сравнить до и после: {title}",
+    "en": "Compare before and after for {title}"
+  },
+  "Discuss {name}, {price}": {
+    "hy": "Քննարկել՝ {name}, {price}",
+    "ru": "Обсудить: {name}, {price}",
+    "en": "Discuss {name}, {price}"
+  },
+  "{name} home": {
+    "hy": "{name}․ գլխավոր էջ",
+    "ru": "{name}: главная",
+    "en": "{name} home"
+  },
+  "Open an app to review and send to the demo owner at {phone}.": {
+    "hy": "Բացեք հավելվածը՝ հաղորդագրությունը ստուգելու և դեմոյի հեղինակին {phone} համարով ուղարկելու համար։",
+    "ru": "Откройте приложение, чтобы проверить сообщение и отправить владельцу демо на номер {phone}.",
+    "en": "Open an app to review and send to the demo owner at {phone}."
+  },
+  "Hello! I’m trying the {clinic} website demo. Treatment interest: {service}. Preferred timing: {timing}. I’d like to discuss the available options.": {
+    "hy": "Բարև։ Փորձում եմ {clinic} կայքի դեմոն։ Հետաքրքրող բուժումը՝ {service}։ Նախընտրելի ժամկետը՝ {timing}։ Կցանկանայի քննարկել հասանելի տարբերակները։",
+    "ru": "Здравствуйте! Я пробую демосайт {clinic}. Интересует: {service}. Удобное время: {timing}. Хотелось бы обсудить доступные варианты.",
+    "en": "Hello! I’m trying the {clinic} website demo. Treatment interest: {service}. Preferred timing: {timing}. I’d like to discuss the available options."
+  },
+  "Illustrative 3D dental arch with a clear aligner lifting gently as you scroll": {
+    "hy": "Ատամնաշարի եռաչափ պատկեր՝ ոլորելիս մեղմ բարձրացող թափանցիկ էլայներով",
+    "ru": "Иллюстративная 3D-модель зубного ряда: прозрачный элайнер плавно поднимается при прокрутке",
+    "en": "Illustrative 3D dental arch with a clear aligner lifting gently as you scroll"
+  },
+  "service": {
+    "hy": "ծառայություն",
+    "ru": "услуга",
+    "en": "service"
+  },
+  "servicesFew": {
+    "hy": "ծառայություն",
+    "ru": "услуги",
+    "en": "services"
+  },
+  "services": {
+    "hy": "ծառայություն",
+    "ru": "услуг",
+    "en": "services"
+  },
+  "demo": {
+    "hy": "դեմո",
+    "ru": "демо",
+    "en": "demo"
+  },
+  "Aurevia Dental Studio — Demo Website": {
+    "hy": "Aurevia Dental Studio — Դեմո կայք",
+    "ru": "Aurevia Dental Studio — Демосайт",
+    "en": "Aurevia Dental Studio — Demo Website"
+  },
+  "A premium U.S. concept for modern dental care, including implants, porcelain veneers, clear aligners, preventive care, and digital diagnostics.": {
+    "hy": "Ժամանակակից ատամնաբուժության ամերիկյան դեմո՝ իմպլանտացիա, վինիրներ, թափանցիկ էլայներներ, կանխարգելիչ խնամք և թվային ախտորոշում։",
+    "ru": "Премиальная концепция стоматологии в США: имплантация, виниры, прозрачные элайнеры, профилактика и цифровая диагностика.",
+    "en": "A premium U.S. concept for modern dental care, including implants, porcelain veneers, clear aligners, preventive care, and digital diagnostics."
+  },
+  "Advanced care, thoughtful design, and a dental experience built around the person.": {
+    "hy": "Առաջադեմ բուժում, մտածված դիզայն և մարդակենտրոն ատամնաբուժական փորձառություն։",
+    "ru": "Передовое лечение, продуманный дизайн и стоматология с вниманием к человеку.",
+    "en": "Advanced care, thoughtful design, and a dental experience built around the person."
+  },
+  "← Back to the concept site": {
+    "hy": "← Վերադառնալ դեմո կայք",
+    "ru": "← Вернуться на демосайт",
+    "en": "← Back to the concept site"
+  },
+  "Privacy notice": {
+    "hy": "Գաղտնիության ծանուցում",
+    "ru": "Уведомление о конфиденциальности",
+    "en": "Privacy notice"
+  },
+  "Website terms": {
+    "hy": "Կայքի օգտագործման պայմաններ",
+    "ru": "Условия использования сайта",
+    "en": "Website terms"
+  },
+  "Demo notice · Updated September 7, 2026": {
+    "hy": "Դեմո ծանուցում · Թարմացվել է 2026 թ. սեպտեմբերի 7-ին",
+    "ru": "Демо-уведомление · Обновлено 7 сентября 2026 г.",
+    "en": "Demo notice · Updated September 7, 2026"
+  },
+  "Demo terms · Updated September 7, 2026": {
+    "hy": "Դեմո պայմաններ · Թարմացվել են 2026 թ. սեպտեմբերի 7-ին",
+    "ru": "Демо-условия · Обновлены 7 сентября 2026 г.",
+    "en": "Demo terms · Updated September 7, 2026"
+  },
+  "This is placeholder legal copy for a U.S. concept website, not a finalized privacy policy. It must be reviewed and adapted by the operating dental practice and qualified counsel before launch.": {
+    "hy": "Սա ԱՄՆ շուկայի հայեցակարգային կայքի օրինակային իրավական տեքստ է, ոչ թե վերջնական գաղտնիության քաղաքականություն։ Գործարկումից առաջ այն պետք է վերանայվի և հարմարեցվի գործող կլինիկայի ու որակավորված իրավաբանի կողմից։",
+    "ru": "Это пример юридического текста для концептуального сайта в США, а не окончательная политика конфиденциальности. Перед запуском клиника и квалифицированный юрист должны проверить и адаптировать его.",
+    "en": "This is placeholder legal copy for a U.S. concept website, not a finalized privacy policy. It must be reviewed and adapted by the operating dental practice and qualified counsel before launch."
+  },
+  "Local message preview": {
+    "hy": "Հաղորդագրության տեղային նախադիտում",
+    "ru": "Локальный предпросмотр сообщения",
+    "en": "Local message preview"
+  },
+  "This demo has no appointment submission form. Treatment, preferred timing, and SMS or WhatsApp selections are used only in the current page to compose a preview. The message builder does not send these selections to a clinic or save them in a database or browser storage. Reloading resets them.": {
+    "hy": "Այս դեմոյում այցի ամրագրման ձև չկա։ Բուժման, նախընտրելի ժամկետի և SMS-ի կամ WhatsApp-ի ընտրությունն օգտագործվում է միայն ընթացիկ էջում՝ հաղորդագրության նախադիտում կազմելու համար։ Կազմիչը դրանք չի ուղարկում կլինիկա և չի պահում տվյալների բազայում կամ դիտարկչի պահոցում։ Էջը թարմացնելիս ընտրությունները վերակայվում են։",
+    "ru": "В этом демо нет формы записи на приём. Выбор лечения, срока и SMS или WhatsApp используется только на текущей странице для подготовки текста. Конструктор не отправляет эти данные в клинику и не сохраняет их в базе данных или хранилище браузера. После перезагрузки выбор сбрасывается.",
+    "en": "This demo has no appointment submission form. Treatment, preferred timing, and SMS or WhatsApp selections are used only in the current page to compose a preview. The message builder does not send these selections to a clinic or save them in a database or browser storage. Reloading resets them."
+  },
+  "Copying and messaging": {
+    "hy": "Պատճենում և հաղորդագրություններ",
+    "ru": "Копирование и отправка сообщений",
+    "en": "Copying and messaging"
+  },
+  "Copy message writes the displayed text to your device clipboard only when you click it. Your device may retain or synchronize clipboard contents according to its settings. After you choose a treatment and timing, Send message opens a choice of SMS or WhatsApp. Choosing an app passes the prepared message and the demo owner’s number (+37477167373) to that service. You must confirm sending in the app. The recipient is the demo owner, not a dental clinic. SMS or WhatsApp may process the draft when opened; their privacy practices apply. If you send it, the recipient can receive your message and messaging identity or phone number.": {
+    "hy": "«Պատճենել» կոճակը միայն սեղմելու դեպքում է ցուցադրված տեքստը փոխանցում սարքի փոխանակման բուֆեր։ Սարքը կարող է պահել կամ համաժամացնել բուֆերի բովանդակությունը՝ ըստ կարգավորումների։ Բուժումն ու ժամկետն ընտրելուց հետո «Ուղարկել հաղորդագրություն» կոճակը բացում է SMS-ի և WhatsApp-ի ընտրությունը։ Հավելվածն ընտրելիս պատրաստված տեքստն ու դեմոյի հեղինակի համարը ({phoneRaw}) փոխանցվում են այդ ծառայությանը։ Ուղարկումը պետք է հաստատեք հավելվածում։ Ստացողը դեմոյի հեղինակն է, ոչ թե կլինիկա։ SMS-ը կամ WhatsApp-ը կարող են մշակել սևագիրը բացվելիս՝ իրենց գաղտնիության պայմաններով։ Ուղարկելու դեպքում ստացողին հասանելի կլինեն հաղորդագրությունը և ձեր հաշվի տվյալները կամ հեռախոսահամարը։",
+    "ru": "Кнопка копирования помещает текст в буфер обмена только после нажатия. Устройство может сохранять или синхронизировать его по своим настройкам. После выбора лечения и срока кнопка отправки предлагает SMS или WhatsApp. При выборе приложения ему передаются текст и номер владельца демо ({phoneRaw}). Отправку нужно подтвердить в приложении. Получатель — владелец демо, а не клиника. SMS или WhatsApp могут обрабатывать черновик при открытии согласно своим правилам конфиденциальности. При отправке получатель увидит сообщение и данные вашего аккаунта или номер телефона.",
+    "en": "Copy message writes the displayed text to your device clipboard only when you click it. Your device may retain or synchronize clipboard contents according to its settings. After you choose a treatment and timing, Send message opens a choice of SMS or WhatsApp. Choosing an app passes the prepared message and the demo owner’s number ({phoneRaw}) to that service. You must confirm sending in the app. The recipient is the demo owner, not a dental clinic. SMS or WhatsApp may process the draft when opened; their privacy practices apply. If you send it, the recipient can receive your message and messaging identity or phone number."
+  },
+  "Medical information": {
+    "hy": "Բժշկական տվյալներ",
+    "ru": "Медицинские данные",
+    "en": "Medical information"
+  },
+  "Do not submit sensitive medical or emergency information through a general website form. A live practice should use approved systems and provide appropriate privacy notices for health information.": {
+    "hy": "Կայքի սովորական ձևով մի ուղարկեք զգայուն բժշկական կամ շտապ օգնություն պահանջող տեղեկություններ։ Գործող կլինիկան պետք է օգտագործի հաստատված համակարգեր և տրամադրի առողջական տվյալների գաղտնիության համապատասխան ծանուցումներ։",
+    "ru": "Не передавайте конфиденциальные медицинские сведения или информацию об экстренных ситуациях через обычную форму сайта. Действующая клиника должна использовать одобренные системы и предоставлять соответствующие уведомления о защите медицинских данных.",
+    "en": "Do not submit sensitive medical or emergency information through a general website form. A live practice should use approved systems and provide appropriate privacy notices for health information."
+  },
+  "Hosting and cookies": {
+    "hy": "Հոսթինգ և քուքիներ",
+    "ru": "Хостинг и файлы cookie",
+    "en": "Hosting and cookies"
+  },
+  "The site code does not add marketing analytics or advertising cookies. The hosting and access-control provider may process technical information such as IP addresses, request logs, and sign-in cookies to deliver and protect the site. This notice does not promise that visiting the site produces no technical records.": {
+    "hy": "Կայքի կոդը չի ավելացնում մարքեթինգային վերլուծություն կամ գովազդային քուքիներ։ Հոսթինգի և մուտքի կառավարման մատակարարը կարող է մշակել տեխնիկական տվյալներ՝ IP հասցեներ, հարցումների գրանցամատյաններ և մուտքի քուքիներ՝ կայքի աշխատանքն ու պաշտպանությունն ապահովելու համար։ Այս ծանուցումը չի երաշխավորում, որ այցը տեխնիկական գրառումներ չի ստեղծում։",
+    "ru": "Код сайта не добавляет маркетинговую аналитику или рекламные cookie. Провайдер хостинга и контроля доступа может обрабатывать IP-адреса, журналы запросов и cookie авторизации для работы и защиты сайта. Это уведомление не обещает отсутствие технических записей о посещении.",
+    "en": "The site code does not add marketing analytics or advertising cookies. The hosting and access-control provider may process technical information such as IP addresses, request logs, and sign-in cookies to deliver and protect the site. This notice does not promise that visiting the site produces no technical records."
+  },
+  "Before a real clinic launches": {
+    "hy": "Գործող կլինիկայի կայքի գործարկումից առաջ",
+    "ru": "Перед запуском сайта реальной клиники",
+    "en": "Before a real clinic launches"
+  },
+  "The operating practice must verify its actual data flows, messaging providers, retention practices, privacy contact, and applicable visitor rights, and approve a final policy. Any required health-information privacy notice is separate; this demo notice is not a HIPAA Notice of Privacy Practices or a compliance certification.": {
+    "hy": "Գործող կլինիկան պետք է ստուգի տվյալների իրական փոխանցումները, հաղորդագրությունների մատակարարներին, պահպանման ընթացակարգերը, գաղտնիության հարցերի կոնտակտը և այցելուների կիրառելի իրավունքները, ապա հաստատի վերջնական քաղաքականությունը։ Առողջական տվյալների պարտադիր ծանուցումը առանձին փաստաթուղթ է․ այս դեմո տեքստը HIPAA-ի գաղտնիության ծանուցում կամ համապատասխանության հավաստագիր չէ։",
+    "ru": "Клиника должна проверить фактические потоки данных, сервисы сообщений, сроки хранения, контакт по конфиденциальности и права посетителей, затем утвердить итоговую политику. Обязательное уведомление о медицинских данных оформляется отдельно; это демо не является уведомлением HIPAA или сертификатом соответствия.",
+    "en": "The operating practice must verify its actual data flows, messaging providers, retention practices, privacy contact, and applicable visitor rights, and approve a final policy. Any required health-information privacy notice is separate; this demo notice is not a HIPAA Notice of Privacy Practices or a compliance certification."
+  },
+  "The Contact section uses the demo owner’s real number, +37477167373, for testing. Other clinic details are fictional placeholders. Replace this section with verified practice contact information before publication.": {
+    "hy": "«Կապ» բաժնում փորձարկման համար օգտագործվում է դեմոյի հեղինակի իրական համարը՝ {phoneRaw}։ Կլինիկայի մյուս տվյալները հորինված օրինակներ են։ Հրապարակելուց առաջ դրանք փոխարինեք կլինիկայի ստուգված կոնտակտներով։",
+    "ru": "В разделе контактов для тестирования указан реальный номер владельца демо: {phoneRaw}. Остальные данные клиники вымышлены. Перед публикацией замените их проверенными контактами клиники.",
+    "en": "The Contact section uses the demo owner’s real number, {phoneRaw}, for testing. Other clinic details are fictional placeholders. Replace this section with verified practice contact information before publication."
+  },
+  "This is placeholder legal copy for a U.S. concept website. The operating practice must replace or approve it with qualified counsel before launch.": {
+    "hy": "Սա ԱՄՆ շուկայի հայեցակարգային կայքի օրինակային իրավական տեքստ է։ Գործարկումից առաջ գործող կլինիկան պետք է այն փոխարինի կամ հաստատի որակավորված իրավաբանի հետ։",
+    "ru": "Это пример юридического текста для концептуального сайта в США. Перед запуском клиника должна заменить его или согласовать с квалифицированным юристом.",
+    "en": "This is placeholder legal copy for a U.S. concept website. The operating practice must replace or approve it with qualified counsel before launch."
+  },
+  "Concept status": {
+    "hy": "Հայեցակարգի կարգավիճակը",
+    "ru": "Статус концепции",
+    "en": "Concept status"
+  },
+  "Aurevia Dental Studio is a fictional design demonstration, not an operating dental practice. The clinicians, credentials, testimonials, prices, clinic details, and treatment visualizations are illustrative demo content. The Contact section’s +37477167373 number belongs to the demo owner and is real. They must not be interpreted as verified professionals, patient endorsements, or offers of care.": {
+    "hy": "{clinic}-ն հորինված դիզայնի ցուցադրություն է, ոչ թե գործող կլինիկա։ Բժիշկները, որակավորումները, կարծիքները, գները, կլինիկայի տվյալներն ու բուժման պատկերները դեմո օրինակներ են։ «Կապ» բաժնի {phoneRaw} համարը իրական է և պատկանում է դեմոյի հեղինակին։ Նյութերը չպետք է ընկալել որպես հաստատված մասնագետներ, իրական պացիենտների երաշխավորություններ կամ բուժման առաջարկներ։",
+    "ru": "{clinic} — вымышленная демонстрация дизайна, а не действующая клиника. Врачи, квалификации, отзывы, цены, данные клиники и визуализации лечения приведены для примера. Номер {phoneRaw} в контактах реален и принадлежит владельцу демо. Материалы нельзя считать подтверждением квалификации специалистов, реальными отзывами или предложениями лечения.",
+    "en": "{clinic} is a fictional design demonstration, not an operating dental practice. The clinicians, credentials, testimonials, prices, clinic details, and treatment visualizations are illustrative demo content. The Contact section’s {phoneRaw} number belongs to the demo owner and is real. They must not be interpreted as verified professionals, patient endorsements, or offers of care."
+  },
+  "No medical advice": {
+    "hy": "Բժշկական խորհրդատվություն չէ",
+    "ru": "Не является медицинской консультацией",
+    "en": "No medical advice"
+  },
+  "Website content is general information and is not a diagnosis, treatment recommendation, or substitute for an examination by a qualified dental professional.": {
+    "hy": "Կայքի բովանդակությունը ընդհանուր տեղեկատվություն է, ոչ թե ախտորոշում, բուժման խորհուրդ կամ որակավորված ատամնաբույժի զննման փոխարինում։",
+    "ru": "Содержание сайта носит общий информационный характер и не является диагнозом, рекомендацией лечения или заменой осмотра квалифицированного стоматолога.",
+    "en": "Website content is general information and is not a diagnosis, treatment recommendation, or substitute for an examination by a qualified dental professional."
+  },
+  "No booking or clinical relationship": {
+    "hy": "Այց չի ամրագրվում և բուժական հարաբերություն չի ստեղծվում",
+    "ru": "Без записи на приём и отношений врач–пациент",
+    "en": "No booking or clinical relationship"
+  },
+  "The message builder lets you select a treatment, preferred timing, and SMS or WhatsApp, then preview and copy a message. Send message opens a channel chooser. SMS or WhatsApp then opens a prepared draft addressed to the demo owner at +37477167373. Sending requires your confirmation in the app and may incur carrier charges. This is a real demo-owner contact, not a clinic booking service; it does not reserve a time or create a doctor-patient relationship. On any future live version, an inquiry would not confirm an appointment until the practice explicitly accepts it.": {
+    "hy": "Հաղորդագրության կազմիչը թույլ է տալիս ընտրել բուժումը, ժամկետը և SMS կամ WhatsApp, ապա դիտել ու պատճենել տեքստը։ Ուղարկման կոճակը բացում է կապի եղանակի ընտրությունը։ SMS-ը կամ WhatsApp-ը բացում են սևագիր՝ հասցեագրված դեմոյի հեղինակին՝ {phoneRaw} համարով։ Ուղարկման համար պահանջվում է ձեր հաստատումը հավելվածում, և կարող է գանձվել օպերատորի վճար։ Սա դեմոյի հեղինակի իրական կոնտակտն է, ոչ թե կլինիկայի ամրագրման ծառայություն․ ժամ չի ամրագրվում և բժիշկ–պացիենտ հարաբերություն չի ստեղծվում։ Ապագա գործող տարբերակում էլ հարցումը չի հաստատի այցը, մինչև կլինիկան այն հստակ չընդունի։",
+    "ru": "Конструктор позволяет выбрать лечение, срок и SMS или WhatsApp, затем просмотреть и скопировать текст. Кнопка отправки открывает выбор канала. Приложение открывает черновик владельцу демо на номер {phoneRaw}. Отправка требует подтверждения и может оплачиваться по тарифу оператора. Это реальный контакт владельца демо, а не сервис записи: время не резервируется и отношения врач–пациент не возникают. В будущей рабочей версии запрос также не будет подтверждать запись без явного согласия клиники.",
+    "en": "The message builder lets you select a treatment, preferred timing, and SMS or WhatsApp, then preview and copy a message. Send message opens a channel chooser. SMS or WhatsApp then opens a prepared draft addressed to the demo owner at {phoneRaw}. Sending requires your confirmation in the app and may incur carrier charges. This is a real demo-owner contact, not a clinic booking service; it does not reserve a time or create a doctor-patient relationship. On any future live version, an inquiry would not confirm an appointment until the practice explicitly accepts it."
+  },
+  "No emergency service": {
+    "hy": "Շտապ օգնության ծառայություն չէ",
+    "ru": "Не является экстренной службой",
+    "en": "No emergency service"
+  },
+  "This demo is not monitored for medical or dental emergencies. In a U.S. emergency, call 911. Do not place sensitive health information in ordinary messaging channels.": {
+    "hy": "Այս դեմոյով բժշկական կամ ատամնաբուժական արտակարգ դիմումները չեն վերահսկվում։ ԱՄՆ-ում արտակարգ իրավիճակի դեպքում զանգահարեք 911։ Սովորական հաղորդագրություններով մի փոխանցեք զգայուն առողջական տվյալներ։",
+    "ru": "Обращения об экстренной медицинской или стоматологической помощи в этом демо не отслеживаются. В экстренной ситуации в США звоните 911. Не передавайте конфиденциальные медицинские сведения через обычные сообщения.",
+    "en": "This demo is not monitored for medical or dental emergencies. In a U.S. emergency, call 911. Do not place sensitive health information in ordinary messaging channels."
+  },
+  "Treatment and pricing": {
+    "hy": "Բուժում և գներ",
+    "ru": "Лечение и стоимость",
+    "en": "Treatment and pricing"
+  },
+  "Treatment needs, timing, eligibility, and fees vary by individual case. Placeholder pricing labels must be replaced with verified information before the site is used commercially.": {
+    "hy": "Բուժման կարիքները, ժամկետները, համապատասխանությունը և արժեքը կախված են անհատական դեպքից։ Առևտրային օգտագործումից առաջ օրինակային գները պետք է փոխարինվեն ստուգված տվյալներով։",
+    "ru": "Необходимость лечения, сроки, показания и стоимость зависят от конкретного случая. Перед коммерческим использованием сайта примерные цены нужно заменить проверенной информацией.",
+    "en": "Treatment needs, timing, eligibility, and fees vary by individual case. Placeholder pricing labels must be replaced with verified information before the site is used commercially."
+  },
+  "Concept imagery and stories": {
+    "hy": "Հայեցակարգային պատկերներ և պատմություններ",
+    "ru": "Концептуальные изображения и истории",
+    "en": "Concept imagery and stories"
+  },
+  "Campaign images, staff portraits, office visuals, and before-and-after comparisons are AI-generated or conceptual. Testimonials are fictional examples, not real reviews. No visualization promises a treatment outcome. Demo prices are not quotes or verified market rates.": {
+    "hy": "Գովազդային պատկերները, թիմի դիմանկարները, սրահի պատկերներն ու «մինչև/հետո» համեմատությունները ստեղծված են ԱԲ-ով կամ հայեցակարգային են։ Կարծիքները հորինված օրինակներ են։ Ոչ մի պատկեր չի երաշխավորում բուժման արդյունք։ Դեմո գները գնառաջարկներ կամ հաստատված շուկայական գներ չեն։",
+    "ru": "Рекламные изображения, портреты команды, интерьер и сравнения до/после созданы ИИ или являются концепциями. Отзывы вымышлены. Визуализации не гарантируют результат лечения. Демо-цены не являются коммерческими предложениями или подтверждёнными рыночными тарифами.",
+    "en": "Campaign images, staff portraits, office visuals, and before-and-after comparisons are AI-generated or conceptual. Testimonials are fictional examples, not real reviews. No visualization promises a treatment outcome. Demo prices are not quotes or verified market rates."
+  },
+  "External links": {
+    "hy": "Արտաքին հղումներ",
+    "ru": "Внешние ссылки",
+    "en": "External links"
+  },
+  "Links may open third-party services. Their content and privacy practices are governed by their own terms.": {
+    "hy": "Հղումները կարող են բացել երրորդ կողմի ծառայություններ։ Դրանց բովանդակությունն ու գաղտնիության գործելակերպը կարգավորվում են սեփական պայմաններով։",
+    "ru": "Ссылки могут вести на сторонние сервисы. Их содержание и правила конфиденциальности регулируются собственными условиями.",
+    "en": "Links may open third-party services. Their content and privacy practices are governed by their own terms."
+  },
+  "Language preference": {
+    "hy": "Լեզվի նախընտրություն",
+    "ru": "Выбор языка",
+    "en": "Language preference"
+  },
+  "Your language preference is saved on this device in localStorage under aurevia.language. This stores only hy, ru, or en, not your treatment or message. You can change it with the language selector or remove it by clearing this site’s browser data.": {
+    "hy": "Ձեր ընտրած լեզուն այս սարքում պահվում է localStorage-ում՝ aurevia.language բանալիով։ Պահվում է միայն hy, ru կամ en արժեքը, ոչ թե բուժման ընտրությունը կամ հաղորդագրությունը։ Այն կարող եք փոխել լեզվի ընտրիչով կամ հեռացնել՝ մաքրելով կայքի տվյալները դիտարկչում։",
+    "ru": "Выбранный язык сохраняется на этом устройстве в localStorage под ключом aurevia.language. Хранится только hy, ru или en, а не лечение или текст сообщения. Измените язык переключателем или удалите настройку, очистив данные сайта в браузере.",
+    "en": "Your language preference is saved on this device in localStorage under aurevia.language. This stores only hy, ru, or en, not your treatment or message. You can change it with the language selector or remove it by clearing this site’s browser data."
+  },
+  "Privacy Notice · Aurevia Dental Studio Demo": {
+    "hy": "Գաղտնիություն · {clinic} Դեմո",
+    "ru": "Конфиденциальность · {clinic} Демо",
+    "en": "Privacy Notice · {clinic} Demo"
+  },
+  "Website Terms · Aurevia Dental Studio Demo": {
+    "hy": "Պայմաններ · {clinic} Դեմո",
+    "ru": "Условия · {clinic} Демо",
+    "en": "Website Terms · {clinic} Demo"
+  },
+  "{clinic} — Demo Website": {
+    "hy": "{clinic} — Դեմո կայք",
+    "ru": "{clinic} — Демосайт",
+    "en": "{clinic} — Demo Website"
+  }
+}

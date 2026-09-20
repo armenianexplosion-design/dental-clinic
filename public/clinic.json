@@ -1,0 +1,11 @@
+{
+  "name": "Aurevia Dental Studio",
+  "brand": "Aurevia",
+  "descriptor": "Dental Studio",
+  "phone": "+374 77 167 373",
+  "phoneRaw": "+37477167373",
+  "email": "concierge@aurevia-demo.example",
+  "address": "26 West 23rd Street, Suite 410, New York, NY 10010",
+  "mapUrl": "https://maps.google.com/?q=26+West+23rd+Street+New+York+NY+10010",
+  "hours": "Mon–Thu 8:00 AM–6:00 PM · Fri 8:00 AM–4:00 PM"
+}
