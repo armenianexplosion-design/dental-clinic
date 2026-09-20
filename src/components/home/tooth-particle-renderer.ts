@@ -20,7 +20,6 @@ function classifyCapability(): Capability {
   return { count: 11000, sizeScale: 1.0 };
 }
 
-// Simple deterministic PRNG so dispersion vectors are stable across reloads.
 function mulberry32(seed: number) {
   return () => {
     seed |= 0; seed = (seed + 0x6d2b79f5) | 0;
@@ -30,26 +29,33 @@ function mulberry32(seed: number) {
   };
 }
 
-function buildToothGeometries() {
-  // Crown: a rounded, slightly squashed form — chisel-like incisor crown.
+function buildToothGeometries(): THREE.BufferGeometry[] {
+  // Crown: rounded, slightly squashed sphere — chisel-like incisor crown.
   const crown = new THREE.SphereGeometry(1, 64, 48);
-  const crownMatrix = new THREE.Matrix4().makeScale(0.95, 1.28, 0.72);
-  crown.applyMatrix4(crownMatrix);
-
-  // Incisal edge: flatten the bottom of the crown a touch for a chisel read.
-  const pos = crown.attributes.position as THREE.BufferAttribute;
-  for (let i = 0; i < pos.count; i++) {
-    const y = pos.getY(i);
-    if (y < -0.4) pos.setY(i, y * 0.55);
+  crown.applyMatrix4(new THREE.Matrix4().makeScale(1.0, 1.3, 0.75));
+  // Flatten the incisal (bottom) edge for a chisel read.
+  const cpos = crown.attributes.position as THREE.BufferAttribute;
+  for (let i = 0; i < cpos.count; i++) {
+    const y = cpos.getY(i);
+    if (y < -0.35) cpos.setY(i, y * 0.5);
   }
   crown.computeVertexNormals();
 
-  // Root: a single tapering cone dropping below the crown.
-  const root = new THREE.ConeGeometry(0.42, 1.85, 40, 18, true);
-  root.translate(0, -1.78, 0);
-  root.rotateX(Math.PI); // apex pointing down
-  root.translate(0, -1.05, 0);
+  // Root: tapering cone, apex pointing down, base joining the crown bottom.
+  const root = new THREE.ConeGeometry(0.46, 1.9, 40, 20, true);
+  root.rotateX(Math.PI);            // apex now points down
+  root.translate(0, -1.35, 0);      // base ~y=-0.45, apex ~y=-2.35
   root.computeVertexNormals();
+
+  // Center the combined form vertically.
+  const box = new THREE.Box3();
+  box.setFromBufferAttribute(crown.attributes.position as THREE.BufferAttribute);
+  const rbox = new THREE.Box3();
+  rbox.setFromBufferAttribute(root.attributes.position as THREE.BufferAttribute);
+  box.union(rbox);
+  const centerY = (box.min.y + box.max.y) / 2;
+  crown.translate(0, -centerY, 0);
+  root.translate(0, -centerY, 0);
 
   return [crown, root];
 }
@@ -57,13 +63,9 @@ function buildToothGeometries() {
 type Sample = { positions: Float32Array; normals: Float32Array };
 
 function sampleSurface(geometries: THREE.BufferGeometry[], count: number, rand: () => number): Sample {
-  // Gather triangles across all geometries with area weighting.
-  const tris: { g: THREE.BufferGeometry; a: number; b: number; c: number; area: number; mtx: THREE.Matrix4 }[] = [];
+  const tris: { g: THREE.BufferGeometry; a: number; b: number; c: number; area: number }[] = [];
   let total = 0;
-  const v = new THREE.Vector3();
-  const tmp = new THREE.Vector3();
   for (const g of geometries) {
-    g.computeVertexNormals();
     const p = g.attributes.position as THREE.BufferAttribute;
     const idx = g.index;
     const triCount = idx ? idx.count / 3 : p.count / 3;
@@ -76,15 +78,14 @@ function sampleSurface(geometries: THREE.BufferGeometry[], count: number, rand: 
       const cx = p.getX(c), cy = p.getY(c), cz = p.getZ(c);
       const ux = bx - ax, uy = by - ay, uz = bz - az;
       const wx = cx - ax, wy = cy - ay, wz = cz - az;
+      const crossX = uy * wz - uz * wy;
       const crossY = uz * wx - ux * wz;
       const crossZ = ux * wy - uy * wx;
-      const crossX = uy * wz - uz * wy;
       const area = 0.5 * Math.sqrt(crossX * crossX + crossY * crossY + crossZ * crossZ);
-      tris.push({ g, a, b, c, area, mtx: g.matrixWorld });
+      tris.push({ g, a, b, c, area });
       total += area;
     }
   }
-  void v; void tmp;
 
   const positions = new Float32Array(count * 3);
   const normals = new Float32Array(count * 3);
@@ -96,7 +97,6 @@ function sampleSurface(geometries: THREE.BufferGeometry[], count: number, rand: 
     let r = rand() * total;
     let tri = tris[0];
     for (let k = 0; k < tris.length; k++) { if (r < tris[k].area) { tri = tris[k]; break; } r -= tris[k].area; }
-    // barycentric
     let u = rand(), vv = rand();
     if (u + vv > 1) { u = 1 - u; vv = 1 - vv; }
     const ww = 1 - u - vv;
@@ -110,14 +110,6 @@ function sampleSurface(geometries: THREE.BufferGeometry[], count: number, rand: 
     nc.set(nattr.getX(tri.c), nattr.getY(tri.c), nattr.getZ(tri.c));
     p.copy(pa).multiplyScalar(ww).addScaledVector(pb, u).addScaledVector(pc, vv);
     n.copy(na).multiplyScalar(ww).addScaledVector(nb, u).addScaledVector(nc, vv).normalize();
-    p.applyMatrix4(tri.mtx);
-    // transform normal by upper-left 3x3 (uniform-ish scale here, so normalize is fine)
-    const m = tri.mtx;
-    n.set(
-      n.x * m.elements[0] + n.y * m.elements[4] + n.z * m.elements[8],
-      n.x * m.elements[1] + n.y * m.elements[5] + n.z * m.elements[9],
-      n.x * m.elements[2] + n.y * m.elements[6] + n.z * m.elements[10],
-    ).normalize();
     positions[i * 3] = p.x; positions[i * 3 + 1] = p.y; positions[i * 3 + 2] = p.z;
     normals[i * 3] = n.x; normals[i * 3 + 1] = n.y; normals[i * 3 + 2] = n.z;
   }
@@ -137,23 +129,18 @@ function buildColors(positions: Float32Array, rand: () => number): Float32Array 
   const c = new THREE.Color();
   for (let i = 0; i < n; i++) {
     const y = positions[i * 3 + 1];
-    const t = (y - minY) / (maxY - minY); // 0 bottom .. 1 top
+    const t = (y - minY) / (maxY - minY);
     const champFactor = 0.16 + 0.22 * rand() + 0.18 * (1 - t);
     c.copy(IVORY).lerp(CHAMPAGNE, champFactor);
     if (t > 0.82) c.lerp(PEARL, 0.45);
     if (t > 0.93 && rand() > 0.6) c.lerp(HIGHLIGHT, 0.5);
-    // occasional champagne metallic sparkles
     if (rand() > 0.965) c.copy(CHAMPAGNE).lerp(HIGHLIGHT, 0.3);
     colors[i * 3] = c.r; colors[i * 3 + 1] = c.g; colors[i * 3 + 2] = c.b;
   }
   return colors;
 }
 
-function buildDispersion(
-  positions: Float32Array,
-  normals: Float32Array,
-  rand: () => number,
-) {
+function buildDispersion(positions: Float32Array, normals: Float32Array, rand: () => number) {
   const n = positions.length / 3;
   const disp = new Float32Array(n * 3);
   const mag = new Float32Array(n);
@@ -165,12 +152,10 @@ function buildDispersion(
   const spherical = new THREE.Vector3();
   for (let i = 0; i < n; i++) {
     normal.set(normals[i * 3], normals[i * 3 + 1], normals[i * 3 + 2]);
-    // base outward direction with a random spherical perturbation
     const theta = rand() * Math.PI * 2;
     const phi = Math.acos(2 * rand() - 1);
     spherical.set(Math.sin(phi) * Math.cos(theta), Math.sin(phi) * Math.sin(theta), Math.cos(phi));
     dir.copy(normal).multiplyScalar(0.7).addScaledVector(spherical, 0.5).normalize();
-    // depth bias: ~35% drift toward camera, ~25% recede into background
     const depthRoll = rand();
     if (depthRoll > 0.65) dir.z += 0.9 + rand() * 0.8;
     else if (depthRoll < 0.25) dir.z -= 0.8 + rand() * 0.8;
@@ -179,7 +164,6 @@ function buildDispersion(
     const magnitude = 1.6 + rand() * 3.2 + (speedClass > 0.85 ? 3.0 : 0);
     disp[i * 3] = dir.x; disp[i * 3 + 1] = dir.y; disp[i * 3 + 2] = dir.z;
     mag[i] = magnitude;
-    // staggered onset so the tooth dissolves progressively, not all at once
     delay[i] = rand() * 0.32;
     range[i] = 0.42 + rand() * 0.3;
     size[i] = 0.6 + rand() * 1.1;
@@ -209,7 +193,6 @@ const vertexShader = /* glsl */ `
     float local = clamp((uProgress - aDelay) / aRange, 0.0, 1.0);
     float amt = ease(local);
     vec3 pos = position + aDisp * aMag * amt;
-    // whisper of life while the tooth is assembled; vanishes as it disperses
     float idle = (1.0 - amt) * 0.012;
     pos += normal * sin(uTime * 0.7 + aDelay * 50.0) * idle;
     vec4 mv = modelViewMatrix * vec4(pos, 1.0);
@@ -231,7 +214,6 @@ const fragmentShader = /* glsl */ `
     float d = length(uv);
     if (d > 0.5) discard;
     float soft = smoothstep(0.5, 0.05, d);
-    // champagne metallic sheen concentrated at the particle core
     float sheen = pow(1.0 - clamp(d * 2.0, 0.0, 1.0), 2.5) * 0.35;
     float depthFade = clamp((vDepth - 2.0) / 18.0, 0.0, 1.0);
     vec3 col = vColor + sheen * vec3(1.0, 0.92, 0.78);
@@ -260,21 +242,7 @@ export async function mountToothParticles(
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 60);
 
-  // Build the tooth from crown + root, bake world matrices, then sample points.
   const geoms = buildToothGeometries();
-  const group = new THREE.Group();
-  const meshes = geoms.map((g) => {
-    const m = new THREE.Mesh(g, new THREE.MeshBasicMaterial());
-    group.add(m);
-    return m;
-  });
-  group.updateMatrixWorld(true);
-  // center the tooth vertically
-  const box = new THREE.Box3().setFromObject(group);
-  const centerY = (box.min.y + box.max.y) / 2;
-  group.position.y = -centerY;
-  group.updateMatrixWorld(true);
-
   const sample = sampleSurface(geoms, cap.count, rand);
   const colors = buildColors(sample.positions, rand);
   const disp = buildDispersion(sample.positions, sample.normals, rand);
@@ -291,7 +259,7 @@ export async function mountToothParticles(
 
   const material = new THREE.ShaderMaterial({
     uniforms: {
-      uProgress: { value: reduced ? 0 : 0 },
+      uProgress: { value: 0 },
       uTime: { value: 0 },
       uPixelRatio: { value: renderer.getPixelRatio() },
       uSizeScale: { value: cap.sizeScale },
@@ -305,15 +273,9 @@ export async function mountToothParticles(
   });
 
   const points = new THREE.Points(geometry, material);
-  // the sample positions are already in world space of the original group;
-  // re-parent into a rotating group so the whole field rotates with the tooth
   const rotor = new THREE.Group();
   rotor.add(points);
   scene.add(rotor);
-
-  // discard the source meshes (only used for sampling)
-  meshes.forEach((m) => { m.geometry.dispose(); (m.material as THREE.Material).dispose(); });
-  geoms.forEach((g) => g.dispose());
 
   let frame = 0, visible = false, disposed = false, lost = false;
   const clock = new THREE.Clock();
@@ -333,7 +295,6 @@ export async function mountToothParticles(
     const p = reduced ? 0 : THREE.MathUtils.clamp(progress.get(), 0, 1);
     material.uniforms.uProgress.value = p;
     material.uniforms.uTime.value = clock.getElapsedTime();
-    // cinematic rotation + subtle dolly as the tooth dissolves
     rotor.rotation.y = -0.5 + p * 0.9;
     rotor.rotation.x = 0.05 - p * 0.12;
     camera.position.z = 8.4 + p * 1.6;
@@ -354,7 +315,6 @@ export async function mountToothParticles(
   renderer.domElement.addEventListener("webglcontextrestored", contextRestored);
   document.addEventListener("visibilitychange", schedule);
 
-  // animate time so the idle shimmer breathes while assembled
   let raf = 0;
   const tick = () => { if (disposed) return; raf = requestAnimationFrame(tick); schedule(); };
   if (!reduced) raf = requestAnimationFrame(tick);
